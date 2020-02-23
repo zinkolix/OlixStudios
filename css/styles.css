@@ -1,0 +1,132 @@
+body {
+  font-family: "roboto", sans-serif;
+  font-size: 14px;
+  font-style: none;
+  line-height: 24px;
+  font-weight: 500;
+  overflow-x: hidden !important;
+  text-align: left;
+  position: relative;
+  color: #999999;
+  opacity: 0.9;
+  background-color: rgb(2, 0, 8);
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+a,
+p {
+  font-family: "roboto", sans-serif;
+  color: white;
+}
+
+p {
+  opacity: 0.9;
+}
+
+
+
+.os-promo {
+  background-color: #0bceaf;
+  font-size: 14px;
+  line-height: 24px;
+  letter-spacing: 1px;
+  font-weight: bold;
+  padding: 10px 30px;
+  border-top-left-radius: 20px;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+  border-bottom-left-radius: 0px;
+  color: white;
+}
+
+
+/** 
+ * -----------------
+ * Social Icon Style
+ * -----------------
+ */
+ .social-icon {
+  display: inline-block;
+}
+
+.social-icon li {
+  list-style: none;
+  float: left;
+  margin-bottom: 0px;
+  margin-right: 8px;
+}
+
+.social-icon li a {
+  text-align: center;
+  width: 45px;
+  height: 45px;
+  padding: 10px;
+  border-radius: 50%;
+}
+
+.social-icon li:last-child a {
+  margin-right: 0px;
+}
+
+.dev-img {
+  height: 400px;
+  width: 400px;
+  /* border: 20px solid rgba(206, 21, 21, 0.07); */
+  margin: 0 auto;
+  border-radius: 50%;
+  border-width: 10px;
+}
+
+.img-border{
+  /* border-width: 10px; */
+  border: 20px solid rgba(0, 0, 0, 0.07);
+  border-radius: 50%;
+}
+
+
+@media only screen and (max-width: 575px) {
+  .xs-column-reverse {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: reverse;
+        -ms-flex-direction: column-reverse;
+            flex-direction: column-reverse;
+  }
+}
+
+/* .vertical-middle-content {
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -webkit-box;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-justify-content: center;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+} */
+
+.section-separator {
+  padding: 60px 0;
+  padding-top: 100px;
+}
+
+.os-about-me-tag ul li{
+  display: inline-block;
+  margin: 5px;
+  
+}
