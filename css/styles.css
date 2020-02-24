@@ -143,3 +143,17 @@ p {
   border-radius: 20px;
   color: white;
 }
+
+/* Projects */
+.os-projects-tab {
+  text-align: justify;
+}
+
+.card{
+  margin: 20px;
+}
+
+.card:hover {
+  background-color: #0bceaf;
+  box-shadow: 5px 5px 20px #0bceaf;
+}
