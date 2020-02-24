@@ -28,8 +28,6 @@ p {
   opacity: 0.9;
 }
 
-
-
 .os-promo {
   background-color: #0bceaf;
   font-size: 14px;
@@ -44,13 +42,12 @@ p {
   color: white;
 }
 
-
 /** 
  * -----------------
  * Social Icon Style
  * -----------------
  */
- .social-icon {
+.social-icon {
   display: inline-block;
 }
 
@@ -82,12 +79,11 @@ p {
   border-width: 10px;
 }
 
-.img-border{
+.img-border {
   /* border-width: 10px; */
   border: 20px solid rgba(0, 0, 0, 0.07);
   border-radius: 50%;
 }
-
 
 @media only screen and (max-width: 575px) {
   .xs-column-reverse {
@@ -96,8 +92,8 @@ p {
     display: flex;
     -webkit-box-orient: vertical;
     -webkit-box-direction: reverse;
-        -ms-flex-direction: column-reverse;
-            flex-direction: column-reverse;
+    -ms-flex-direction: column-reverse;
+    flex-direction: column-reverse;
   }
 }
 
@@ -127,11 +123,10 @@ p {
 
 /* About Me */
 
-.os-about-me-tag ul li{
+.os-about-me-tag ul li {
   display: inline-block;
   margin: 5px;
   align-self: auto;
-  
 }
 
 .resume {
@@ -149,11 +144,37 @@ p {
   text-align: justify;
 }
 
-.card{
+.card {
   margin: 20px;
 }
 
 .card:hover {
   background-color: #0bceaf;
   box-shadow: 5px 5px 20px #0bceaf;
+}
+
+/*
+Technical skills 
+ */
+.info {
+  color: white;
+  position: relative;
+}
+
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.tech-skills-list {
+  margin: 10px;
+}
+.progress-bar {
+  background: #0bceaf;
+}
+
+.progress {
+  height: 8px;
+  border-radius: 50%;;
 }
