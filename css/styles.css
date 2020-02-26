@@ -156,6 +156,14 @@ p {
 /*
 Technical skills 
  */
+
+ .tech-skills{
+  align-items: center;
+  align-content: center;
+  margin-top: 25%;
+ 
+ }
+
 .info {
   color: white;
   position: relative;
@@ -178,3 +186,77 @@ Technical skills
   height: 8px;
   border-radius: 50%;;
 }
+
+/* Professional Skills */
+svg {
+  position: relative;
+  z-index: 1000;
+}
+
+svg circle {
+  width: 100%;
+  height: 100%;
+  fill: none;
+  stroke: #191919;
+  stroke-width: 10;
+  stroke-linecap: round;
+  transform: translate(5px, 5px);
+
+}
+
+svg circle:nth-child(2) {
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+.os-professional-skills:nth-child(1) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 80)/100);
+  stroke: #00ff43;
+}
+
+.os-professional-skills:nth-child(2) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 90)/100);
+  stroke: #00ff43;
+}
+
+.os-professional-skills:nth-child(3) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 70)/100);
+  stroke: #00ff43;
+}
+
+.os-professional-skills:nth-child(4) svg circle:nth-child(2) {
+  stroke-dashoffset: calc(440 - (440 * 65)/100);
+  stroke: #00ff43;
+}
+
+.percent {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  border-radius: 50%;
+  margin: 20px;
+}
+
+.number {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  padding: 0px;
+  margin: 0px;
+  transform: translate(-50%, -50%);
+  color: rgb(85, 85, 85);
+}
+
+.os-skill-name{
+  text-align: center;
+  color: white;
+}
+
+.os-professional-skills {
+  display: inline-block;
+  margin: 0 auto;
+  float: none;
+  width: 48%;
+  margin-bottom: 30px;
+}
+
