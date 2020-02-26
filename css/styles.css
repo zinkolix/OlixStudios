@@ -255,6 +255,6 @@ svg circle:nth-child(2) {
   margin: 0 auto;
   float: none;
   width: 48%;
-  margin-bottom: 30px;
+  padding: 10px;
 }
 
