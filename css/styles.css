@@ -12,6 +12,7 @@ body {
   background-color: rgb(2, 0, 8);
 }
 
+
 h1,
 h2,
 h3,
@@ -255,5 +256,9 @@ svg circle:nth-child(2) {
   margin: 10px auto;
   float: none;
   width: 48%;
+}
+
+footer{
+  margin-bottom: 0;
 }
 
