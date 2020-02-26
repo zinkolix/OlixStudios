@@ -252,9 +252,8 @@ svg circle:nth-child(2) {
 
 .os-professional-skills {
   display: inline-block;
-  margin: 0 auto;
+  margin: 10px auto;
   float: none;
   width: 48%;
-  padding: 10px;
 }
 
